@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  JePin
+
+  Created by 冯 鸿杰 on 13-7-3.
+  Copyright (c) 2013年 Chen GangQiang. All rights reserved.
+*/
+
+"TITLE_FUN_SECTION" = "功能";
+"TITLE_INDEX" = "首页";
+"TITLE_FAVORITE" = "收藏";
+"TITLE_SETTING" = "设置";
+"TITLE_APP_RECOMMEND" = "推荐应用";

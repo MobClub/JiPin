@@ -1,0 +1,29 @@
+//
+// Prefix header for all source files of the 'JePin' target in the 'JePin' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "UIView+Common.h"
+#endif
+
+#define BUNDLE_NAME @"Resource"
+
+#define SAFE_RELEASE(obj) if(obj){[obj release];obj=nil;}
+
+/**
+ *	@brief	预设授权用户标识
+ */
+#define USER_ID @"3934990798"
+#define TARGET_USER_NAME @"我的极品前任2013"
+
+
+#define UMENG_APPKEY @"517cca8c527015838b00000c"
+#define APPID @"642035975"
